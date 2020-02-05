@@ -1,7 +1,6 @@
 # Illumio-Assignment
 
-1, Map<String, Map<Integer, List<long[]>>> inputMap
-I use HashMap data structure to store the input data. The key is the combination of direction and protocol. The value is also be a map, in that map, the key is the port number, and the value is a Long array list which will contain all the range of IP address, like [IP1, IP2], in ascending order according to the first value.
+1, I use HashMap data structure to store the input data: "Map<String, Map<Integer, List<long[]>>>". The key is the combination of direction and protocol. The value is also be a map, in that map, the key is the port number, and the value is a Long array list which will contain all the range of IP address, like [IP1, IP2], in ascending order according to the first value.
 
 2, I thansform the String IP address into a long value, which is easy to search and compare.
 
